@@ -58,8 +58,16 @@ Though some projects may have different requirements, DockYard generally has set
 	* Holds all `@font-face` declarations
 * `layout.css`
 	* Holds all global `l-…` styles
+* `modules/`
+  * Holds all app specific module files:
+    * `modules/search-bar.css`, `modules/cards.css`
 
 Learn more here: [beginning-a-project](https://github.com/dockyard/styleguides/blob/master/ux-dev/beginning-a-project.md#example-file-structure)
+
+## Order of Declaration
+Most projects should have our [style linter](https://github.com/DockYard/stylelint-config-narwin) installed. The linter helps us to define and maintain an [order of declaration](https://github.com/DockYard/stylelint-config-narwin/blob/master/index.js#L1).
+
+You can also check out the [Linter Styleguide](https://github.com/dockyard/styleguides/blob/master/ux-dev/stylelint-config-narwin.md).
 
 ## Variables
 Narwin-pack uses [postcss-custom-properties](https://github.com/postcss/postcss-custom-properties).
